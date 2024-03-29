@@ -1,0 +1,73 @@
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+article, header, section, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block;
+}
+body {
+    background:#e5e5e5 none repeat scroll 0 0;
+    color: #222;
+    font-size: 100%;
+    line-height: 24px;
+    margin: 0;
+	padding:0;
+	font-family: "Raleway",sans-serif;
+}
+a{
+	font-family: "Raleway",sans-serif;
+	text-decoration: none;
+	outline: none;
+}
+section {
+    float: left;
+    width: 100%;
+	padding-bottom:3em;
+}
+.ScriptHeader {
+    float: left;
+    width: 100%;
+    padding: 2em 0;
+}
+
+.Scriptcontent{
+	line-height:28px;	
+}
+
+.rt-container {
+	margin: 0 auto;
+	padding-left:12px;
+	padding-right:12px;
+}
+
+[class^="col-rt-"] {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  padding: 0 15px;
+  min-height: 1px;
+  position: relative;
+}
+
+
+@media (min-width: 768px) {
+  .rt-container {
+    width: 750px;
+  }
+  [class^="col-rt-"] {
+    float: left;
+    width: 49.9999999999%;
+  }
+  .col-rt-6, .col-rt-12 {
+    width: 100%;
+  }
+  
+}
+
+
